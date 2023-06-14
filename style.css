@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header{
+width: 100%;
+height:800px;
+background-color: #f0e8e2d2 ;
+/* margin-top: 0px; */
+}
+header{
+    display: flex;
+    flex-direction:row;
+    /* justify-content:center; */
+    align-items:start;
+    /* margin-top: 80px; */
+    padding-top: 45px;
+}
+
+.logo{
+    margin-left: 117px;
+    /* margin-top: 50px; */
+    font-family: sans-serif;
+}
+
+.top-menu{
+    margin-left: 461px;
+    /* margin-top: 70px; */
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin: 15px;
+    font-size:20px;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+ 
+.regester{
+    /* margin-top: 70px; */
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.singin{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-right: 37px;
+}
+.singup{
+    border:1px solid transparent;
+    background-color: #7300FD;
+    border-radius: 6px;
+    font-family: sans-serif;
+    width: 94px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.singup a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main-side{
+    border:2px solid transparent;
+    /* background-color: aqua; */
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    border: 2px solid transparent;
+    width:50%;
+    height: 600px;
+    /* background-image: url(Assets/hero-Illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding-bottom: 10px;
+}
+.left{
+    border: 2px solid transparent;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:visible;
+}
+
+.img-side{
+padding-left: 60px;
+padding-bottom: 50px;
+}
+
+.content-left{
+ border: 1px solid transparent;
+ width: 100%;
+ height: 400px;
+ overflow: visible;
+
+}
+.rate-star{
+width: 100%;
+height: 20px;
+border: 1px solid transparent;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 30px;
+}
+.star{
+    /* margin-left: 37px; */
+}
+.rate{
+    font-family: sans-serif;
+    margin-left: 16px;
+   
+}
+ .text-rate{
+    display: flex;
+    flex-direction: row;   
+ }
+
+ .text-header{
+    border: 1px solid transparent;
+    width: 121%;
+    height: 151px;
+    display: flex;
+    align-items: start;
+    overflow: visible;
+    margin-top: 20px;
+ }
+ H1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+ }
+ .text{
+    border: 1px solid transparent;
+    width: 112%;
+    height: 64px;
+    overflow: visible;
+ }
+ .text p{
+    font-family: sans-serif;
+    font-size: 25px;
+    overflow: visible;
+    font-weight:100;
+    opacity: 0.6;
+ }
+ .butten{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .BTn-1{
+    border: 1px solid transparent;
+    height: 58px;
+    width: 154px;
+    background-color:#7300FD ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+
+ }
+ .BTn-1 a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+ }
+ .link{
+    margin-left: 20px;
+    border-bottom:2px solid #7300FD ;
+ }
+ .link a{
+    font-family: sans-serif;
+    text-decoration:none;
+    font-weight: bolder;
+    color: #7300FD;
+    font-size: 20px;
+ }
+ .top-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    margin-left: 10px;
+ }
+ .List-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    /* font-weight:bold; */
+    font-size: 20px;
+    
+ }
+ .List-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 36px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* font-weight:bold; */
+ }
+ .List-right  p{
+    margin-left:8px ;
+    color: black;
+    opacity: 0.6;
+ }
+ .List-left  p{
+    margin-left:8px ;
+    opacity: 0.6;
+ }
